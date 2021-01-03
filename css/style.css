@@ -1,19 +1,97 @@
+/**
+	STYLE
+*/
 *{
 	margin: 0px;
 	padding: 0;
 	font-family: Arial;
-
+	font-size: 1.2rem;
 }
+/**
+	HEADER STYLE
+*/
 a{
-	list-style: none;
 	text-decoration: none;
 	color: white;
 }
+header a:hover{
+	color: #95caff;
+}
 header{
-	background-color: black;
+	background-color: #0054a8;
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap; 
+	padding: 20px;
 }
-nav{
+.menu{
 	display: flex;
 }
+.menu li{
+	margin-left: 10px;
+}
+.menu li a{
+	display: block;
+	padding: 10px;
+}
+nav ul li{
+	list-style: none;
+}
+/**
+	SECTION (MENU) STYLE
+*/
+.sec-home{
+	background-color: #359aff;
+	height: 450px;
+	padding: 60px;
+}
+.t-home{
+	color: white;
+	font-size: 2rem;
+	margin: 0 0 10px 0;
+	word-wrap: break-word;
+	position: absolute;
+}
+.t2-home{
+	color: #a8d3ff;
+	margin-top: 85px;
+	position: absolute;
+}
+img{
+	width: 35%;
+	display: block;
+	margin-left: auto;
+	justify-content: center;
+	position: relative;
+}
+/**
+	ARTICLE (SOBRE) STYLE
+*/
+.topic{
+	color: #0054a8;
+	text-align: center;
+	margin: 30px;
+}
+.topic-ad{
+	color: #2b95ff;
+	text-align: center;
+	margin: 10px;
+}
+hr{
+	border-color: #c1e0ff;
+	margin-left: 30%;
+	margin-right: 30%;
+}
+.sobre p{
+	text-align: justify;
+	margin-left: 300px;
+	margin-right: 0 auto;
+	margin-bottom: 1rem;
+	width: 800px;
+	color: #414141;
+	font-family: monospace;
+}
+/**
+	TECH STYLE
+*/
