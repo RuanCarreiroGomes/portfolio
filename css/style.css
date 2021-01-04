@@ -85,10 +85,10 @@ hr{
 }
 .sobre p{
 	text-align: justify;
-	margin-left: 300px;
+	margin-left: 350px;
 	margin-right: 0 auto;
 	margin-bottom: 1rem;
-	width: 800px;
+	width: 50%;
 	color: #414141;
 	font-family: monospace;
 }
@@ -97,23 +97,42 @@ hr{
 */
 .tech-info{
 	display: flex;
+	flex-wrap: wrap;
+	max-width: 800px;
 	justify-content: space-between;
 	margin: 60px;
+	padding-left: 17%
 }
 .tech-info div{
-	margin: 5px;
+	margin: 30px;
 }
+
 .tech-info div:hover{
 	cursor: pointer;
 	border-radius: 10px;
 	border-bottom: #0054a8 solid;
 }
+.tech-info .icon:hover{
+	color: #2b95ff;
+	cursor: pointer;
+}
 .tech-info .icon{
 	color: #0054a8;
-	font-size: 8rem;
+	font-size: 5rem;
+	text-align: center;
 }
 .tech-info h3{
 	color: #0054a8;
 	text-align: center;
 	margin: 10px;
+}
+.tech-info > div{
+	flex: 1 1 200px;
+	margin: 0 10px; 
+}
+.tech-info p{
+	color: #414141;
+	font-family: monospace;
+	font-size: 1rem;
+	text-align: center;
 }
