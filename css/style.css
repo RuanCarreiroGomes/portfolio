@@ -95,3 +95,25 @@ hr{
 /**
 	TECH STYLE
 */
+.tech-info{
+	display: flex;
+	justify-content: space-between;
+	margin: 60px;
+}
+.tech-info div{
+	margin: 5px;
+}
+.tech-info div:hover{
+	cursor: pointer;
+	border-radius: 10px;
+	border-bottom: #0054a8 solid;
+}
+.tech-info .icon{
+	color: #0054a8;
+	font-size: 8rem;
+}
+.tech-info h3{
+	color: #0054a8;
+	text-align: center;
+	margin: 10px;
+}
