@@ -58,7 +58,7 @@ nav ul li{
 	margin-top: 85px;
 	position: absolute;
 }
-img{
+.sec-home img{
 	width: 35%;
 	display: block;
 	margin-left: auto;
@@ -101,7 +101,7 @@ hr{
 	max-width: 800px;
 	justify-content: space-between;
 	margin: 60px;
-	padding-left: 17%
+	padding-left: 17%;
 }
 .tech-info div{
 	margin: 30px;
@@ -111,8 +111,9 @@ hr{
 	cursor: pointer;
 	border-radius: 10px;
 	border-bottom: #0054a8 solid;
+	margin-top: 20px;
 }
-.tech-info .icon:hover{
+.tech-info div h3:hover{
 	color: #2b95ff;
 	cursor: pointer;
 }
@@ -135,4 +136,45 @@ hr{
 	font-family: monospace;
 	font-size: 1rem;
 	text-align: center;
+}
+/**
+	PROJECTS STYLE
+*/
+.projects-info{
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 800px;
+	justify-content: space-between;
+	margin: 60px;
+	padding-left: 17%;
+}
+.projects-info > div{
+	flex: 1 1 200px;
+	margin: 0 10px; 
+}
+.projects-info div{
+	margin: 30px;
+}
+.projects-info img{
+	max-width: 100%;
+	display: block;
+}
+.projects-info h3{
+	color: #0054a8;
+	text-align: center;
+	margin: 10px;
+}
+.projects h3:hover{
+	color: #2b95ff;
+	cursor: pointer;
+}
+.projects-info p{
+	font-family: monospace;
+	text-align: center;
+	color: #414141;
+}
+@media (max-width: 700px){
+	.sobre p{
+		margin-left: 50px;
+	}
 }
