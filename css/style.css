@@ -85,8 +85,9 @@ hr{
 }
 .sobre p{
 	text-align: justify;
-	margin-left: 350px;
-	margin-right: 0 auto;
+	display: flex;
+  	align-items: center;
+  	margin: 0 auto;
 	margin-bottom: 1rem;
 	width: 50%;
 	color: #414141;
@@ -100,7 +101,8 @@ hr{
 	flex-wrap: wrap;
 	max-width: 800px;
 	justify-content: space-between;
-	margin: 60px;
+	margin-left: 0 auto;
+	margin-right: 0 auto;
 	padding-left: 17%;
 }
 .tech-info div{
