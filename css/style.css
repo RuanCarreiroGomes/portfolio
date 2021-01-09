@@ -103,7 +103,8 @@ hr{
 	justify-content: space-between;
 	margin-left: 0 auto;
 	margin-right: 0 auto;
-	padding-left: 17%;
+	padding-left: 10%;
+	padding-right: 10%;
 }
 .tech-info div{
 	margin: 30px;
@@ -125,6 +126,7 @@ hr{
 	text-align: center;
 }
 .tech-info h3{
+	font-size: 1.0rem;
 	color: #0054a8;
 	text-align: center;
 	margin: 10px;
@@ -151,7 +153,7 @@ hr{
 	padding-left: 17%;
 }
 .projects-info > div{
-	flex: 1 1 200px;
+	flex: 1 1 300px;
 	margin: 0 10px; 
 }
 .projects-info div{
@@ -175,8 +177,8 @@ hr{
 	text-align: center;
 	color: #414141;
 }
-@media (max-width: 700px){
-	.sobre p{
-		margin-left: 50px;
+@media screen and (max-width: 700px){
+	.topic{
+		font-size: 27px;
 	}
 }
