@@ -193,6 +193,9 @@ hr{
 	.menu li{
 		display: none;
 	}
+	.topic{
+		font-size: 2.2rem;
+	}
 	.t-home{
 		font-size: 2.2rem;
 	}
@@ -202,9 +205,18 @@ hr{
 	}
 	.sobre p{
 		width: 60%;
+		font-size: 1.6rem;
 	}
 	.tech-info{
 		flex-direction: column;
+		
+	}
+	.tech-info h3{
+		font-size: 1.8rem;
+		margin: 50px;
+	}
+	.tech-info .icon{
+		font-size: 10rem;;
 	}
 	.tech-info p{
 		font-size: 1.2rem;
@@ -214,4 +226,11 @@ hr{
 	.tech-info div:hover{
 		border: none;
 	}
+	.projects-info h3{
+		font-size: 1.8rem;
+	}
+	.projects-info p{
+		font-size: 1.2rem;
+	}
+	
 }
