@@ -184,8 +184,14 @@ hr{
 	color: #414141;
 }
 @media (max-width: 1040px){
+	.sec-home{
+		height: 950px;
+	}
 	.header{
-		height: 90px;
+		height: 140px;
+	}
+	.header a{
+		font-size: 2.1rem;
 	}
 	.sec-home img{
 		display: none;
@@ -194,14 +200,17 @@ hr{
 		display: none;
 	}
 	.topic{
-		font-size: 2.2rem;
-	}
-	.t-home{
 		font-size: 2.9rem;
 	}
+	.topic-ad{
+		font-size: 2.3rem;
+	}
+	.t-home{
+		font-size: 3.9rem;
+	}
 	.t2-home{
-		margin-top: 185px;
-		font-size: 1.5rem;
+		margin-top: 197px;
+		font-size: 3.1rem;
 	}
 	.sobre p{
 		width: 60%;
@@ -216,7 +225,7 @@ hr{
 		margin: 50px;
 	}
 	.tech-info .icon{
-		font-size: 10rem;;
+		font-size: 15rem;
 	}
 	.tech-info p{
 		font-size: 1.2rem;
@@ -228,6 +237,7 @@ hr{
 	}
 	.projects-info h3{
 		font-size: 1.8rem;
+		margin: 30px;
 	}
 	.projects-info p{
 		font-size: 1.2rem;
