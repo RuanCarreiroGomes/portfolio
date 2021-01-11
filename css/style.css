@@ -72,11 +72,13 @@ nav ul li{
 	color: #0054a8;
 	text-align: center;
 	margin: 30px;
+	margin-top: 60px;
 }
 .topic-ad{
 	color: #2b95ff;
 	text-align: center;
 	margin: 10px;
+	margin-bottom: 60px;
 }
 hr{
 	border-color: #c1e0ff;
@@ -134,7 +136,7 @@ hr{
 }
 .tech-info > div{
 	flex: 1 1 200px;
-	margin: 0 10px; 
+	margin: 20px 10px; 
 }
 .tech-info p{
 	color: #414141;
@@ -181,15 +183,22 @@ hr{
 	text-align: center;
 	color: #414141;
 }
-@media (max-width: 700px){
+@media (max-width: 1040px){
+	.header{
+		height: 90px;
+	}
 	.sec-home img{
 		display: none;
 	}
 	.menu li{
 		display: none;
 	}
+	.t-home{
+		font-size: 2.2rem;
+	}
 	.t2-home{
-		margin-top: 140px;
+		margin-top: 100px;
+		font-size: 1.5rem;
 	}
 	.sobre p{
 		width: 60%;
@@ -197,7 +206,11 @@ hr{
 	.tech-info{
 		flex-direction: column;
 	}
-
+	.tech-info p{
+		font-size: 1.2rem;
+		margin: 0 60px;
+	}
+	
 	.tech-info div:hover{
 		border: none;
 	}
