@@ -183,6 +183,11 @@ hr{
 	text-align: center;
 	color: #414141;
 }
+
+/**
+	RESPONSIVE PAGE
+*/
+
 @media (max-width: 1040px){
 	.sec-home{
 		height: 950px;
@@ -191,10 +196,16 @@ hr{
 		height: 140px;
 	}
 	.header a{
-		font-size: 2.1rem;
+		font-size: 2.5rem;
 	}
 	.sec-home img{
-		display: none;
+		display: block;
+		width: 60%;
+		bottom: 0;
+		top: 460px;
+		left: 0;
+		right: 0;
+		margin: auto;
 	}
 	.menu li{
 		display: none;
@@ -209,7 +220,7 @@ hr{
 		font-size: 3.9rem;
 	}
 	.t2-home{
-		margin-top: 197px;
+		margin-top: 300px;
 		font-size: 3.1rem;
 	}
 	.sobre p{
@@ -236,7 +247,7 @@ hr{
 		border: none;
 	}
 	.projects-info h3{
-		font-size: 1.8rem;
+		font-size: 2.3rem;
 		margin: 30px;
 	}
 	.projects-info p{
