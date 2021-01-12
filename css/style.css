@@ -24,6 +24,9 @@ header{
 	align-items: center;
 	flex-wrap: wrap; 
 	padding: 20px;
+	width: 100%;
+	position: fixed;
+	z-index: 12;
 }
 .menu{
 	display: flex;
@@ -35,6 +38,7 @@ header{
 	display: block;
 	padding: 10px;
 }
+
 nav ul li{
 	list-style: none;
 }
@@ -45,6 +49,10 @@ nav ul li{
 	background-color: #359aff;
 	height: 450px;
 	padding: 60px;
+	z-index: 11;
+}
+.row{
+	padding-top: 90px;
 }
 .t-home{
 	color: white;
@@ -59,7 +67,7 @@ nav ul li{
 	position: absolute;
 }
 .sec-home img{
-	width: 35%;
+	width: 30%;
 	display: block;
 	margin-left: auto;
 	justify-content: center;
@@ -204,6 +212,9 @@ hr{
 	.sec-home{
 		height: 950px;
 	}
+	.row{
+		padding-top: 150px;
+	}
 	.header{
 		height: 140px;
 	}
@@ -211,13 +222,7 @@ hr{
 		font-size: 2.5rem;
 	}
 	.sec-home img{
-		display: block;
-		width: 60%;
-		bottom: 0;
-		top: 460px;
-		left: 0;
-		right: 0;
-		margin: auto;
+		display: none;
 	}
 	.menu li{
 		display: none;
