@@ -260,7 +260,7 @@ hr{
 	}
 	#check:checked ~ ul{
 		left: 0;
-	}	
+	}
 	.topic{
 		font-size: 2.9rem;
 	}
@@ -275,8 +275,8 @@ hr{
 		font-size: 3.1rem;
 	}
 	.sobre p{
-		width: 60%;
-		font-size: 1.6rem;
+		width: 80%;
+		font-size: 1.9rem;
 	}
 	.tech-info{
 		flex-direction: column;
@@ -290,7 +290,7 @@ hr{
 		font-size: 15rem;
 	}
 	.tech-info p{
-		font-size: 1.2rem;
+		font-size: 1.8rem;
 		margin: 0 60px;
 	}
 	
@@ -302,7 +302,7 @@ hr{
 		margin: 30px;
 	}
 	.projects-info p{
-		font-size: 1.6rem;
+		font-size: 1.8rem;
 	}
 	
 }
