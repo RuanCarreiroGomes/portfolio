@@ -118,7 +118,7 @@ hr{
 /**
 	TECH STYLE
 */
-.tech-info{
+.tech-info, .contact-info{
 	display: flex;
 	flex-wrap: wrap;
 	max-width: 800px;
@@ -129,32 +129,32 @@ hr{
 	top: 0;
 	margin: auto;
 }
-.tech-info div{
+.tech-info div, .contact-info div{
 	margin: 30px;
 }
 
-.tech-info div:hover{
+.tech-info div:hover, .contact-info div:hover{
 	cursor: pointer;
 	border-radius: 10px;
 	border-bottom: #0054a8 solid;
 	margin-top: 20px;
 }
-.tech-info div h3:hover{
+.tech-info div h3:hover, .contact-info div h3:hover{
 	color: #2b95ff;
 	cursor: pointer;
 }
-.tech-info .icon{
+.icon{
 	color: #0054a8;
 	font-size: 5rem;
 	text-align: center;
 }
-.tech-info h3{
+.tech-info h3, .contact-info h3{
 	font-size: 1.0rem;
 	color: #0054a8;
 	text-align: center;
 	margin: 10px;
 }
-.tech-info > div{
+.tech-info > div, .contact-info > div{
 	flex: 1 1 200px;
 	margin: 20px 10px; 
 }
@@ -214,6 +214,14 @@ hr{
 	font-family: monospace;
 	text-align: center;
 	color: #414141;
+}
+
+/**
+	CONTACT STYLE
+*/
+
+.contact-info div{
+	margin-bottom: 150px;
 }
 
 /**
